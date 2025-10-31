@@ -7,7 +7,7 @@ This project demonstrates how to use **Diffusion Models** for AI image generatio
 
 ---
 
-## 🚀 Features
+## Features
 
 * Generate images from text prompts
 * Understand how diffusion processes denoise random noise into structured images
@@ -16,7 +16,7 @@ This project demonstrates how to use **Diffusion Models** for AI image generatio
 
 ---
 
-## 🧩 How It Works
+##  How It Works
 
 1. **Start with noise** — a random tensor that looks like static TV noise.
 2. **Iteratively denoise** — the model predicts and removes a portion of the noise at each step.
@@ -24,7 +24,7 @@ This project demonstrates how to use **Diffusion Models** for AI image generatio
 
 ---
 
-## 🧰 Requirements
+##  Requirements
 
 Make sure you have the following installed:
 
@@ -34,7 +34,7 @@ pip install torch torchvision diffusers transformers accelerate
 
 ---
 
-## 🧑‍💻 Usage
+##  Usage
 
 Run the main script:
 
@@ -45,13 +45,13 @@ python generate_image.py --prompt "A scenic view of Madina in watercolor paintin
 Example output:
 
 ```
-🖼️ Generating image for prompt: "A scenic view of Madina in watercolor painting style"
-✅ Image saved as output.png
+ Generating image for prompt: "A scenic view of Madina in watercolor painting style"
+ Image saved as output.png
 ```
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 .
@@ -60,4 +60,4 @@ Example output:
 ├── README.md             # Project documentation
 └── outputs/              # Generated images
 `
-If you like this project, ⭐ star it on GitHub and share your feedback!
+If you like this project,  star it on GitHub and share your feedback!
